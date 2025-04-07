@@ -2,7 +2,7 @@
 
 :root {
     --cor-de-fundo: #000000;
-    --azul-marinho: #000080;
+    --cinza: #A9A9A9;
     --branco: #FFFFFF;
     --botao-ativo: #000080;
     --botao-inativo: rgba(169, 169, 169, 1);
@@ -63,7 +63,7 @@ body {
 
 .botao.ativo {
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--azul_marinho);
+    border-bottom: 4px solid var(cinza);
 }
 
 .abas-textos {
@@ -87,7 +87,7 @@ body {
 
 .aba-conteudo-titulo-secundario {
     text-align: center;
-    color: var(--azul-marinho);
+    color: var(--cinza);
     text-transform: uppercase;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .contador-digito-texto {
-    color: var(--azul-marinho);
+    color: var(--cinza);
     font-size: 20px;
     margin: 0;
 
